@@ -26,6 +26,7 @@ To build a C program that prints integer, float,character, and string literals o
 ### Step 4: 
    Stop
 # Program:
+'''
 #include <stdio.h>
 int main()
 {
@@ -34,6 +35,7 @@ scanf("%f",&a);
 printf("%f",a);
 return 0;
 }
+'''
 # Output:
 <img width="597" height="233" alt="image" src="https://github.com/user-attachments/assets/29e681e1-e5ad-4221-bf39-59b1a1f46beb" />
 
