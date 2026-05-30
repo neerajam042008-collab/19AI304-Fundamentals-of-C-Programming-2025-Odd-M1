@@ -26,7 +26,17 @@ To build a C program that prints integer, float,character, and string literals o
 ### Step 4: 
    Stop
 # Program:
+#include <stdio.h>
+int main()
+{
+float a;
+scanf("%f",&a);
+printf("%f",a);
+return 0;
+}
 # Output:
+<img width="597" height="233" alt="image" src="https://github.com/user-attachments/assets/29e681e1-e5ad-4221-bf39-59b1a1f46beb" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -57,7 +67,20 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
+#include <stdio.h>
+int main(){
+    char ch;
+    scanf("%c",&ch);
+    if ((ch>=65 && ch<=90) || (ch >=97 && ch<= 122)){
+        printf("It is an ALPHABET");
+    }
+    else {
+        printf("It is NOT AN ALPHABET");
+    }
+}
 # Output:
+<img width="628" height="435" alt="image" src="https://github.com/user-attachments/assets/14ebb638-3111-49c9-8de8-6b5b11b829c9" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -120,7 +143,18 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+#include <stdio.h>
+int main()
+{
+    int num1, num2, sum;
+    scanf("%d%d",&num1,&num2);
+    sum = num1 +num2;
+    printf("Sum of %d and %d=%d",num1,num2, sum);
+    return 0;
+}
 # Output:
+<img width="706" height="322" alt="image" src="https://github.com/user-attachments/assets/d5fafbf2-422c-4222-8e6e-3cf2e556dbef" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -165,7 +199,24 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+#include <stdio.h>
+int main(){
+    char ch;
+    scanf("%c",&ch);
+    if (ch >= 'A' && ch <= 'Z'){
+        
+        if (ch =='a' || ch =='E' || ch=='I' || ch == 'O' || ch =='U'){
+            printf("Vowel.");
+        }
+        else {
+            printf("Consonant.");
+        }
+    }
+    
+}
 # Output:
+<img width="497" height="273" alt="image" src="https://github.com/user-attachments/assets/c7e7d3c8-809c-48f8-83a7-ccfdcbfb1398" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
