@@ -104,9 +104,18 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 5:    
    Stop
 # Program:
+#include <stdio.h>
+int main()
+{
+    char a='A';
+    printf("%c",a);
+    return 0;
+}
 # Output:
-# Result: 
+<img width="441" height="233" alt="image" src="https://github.com/user-attachments/assets/aad549a2-c6fd-4fbf-8dd7-5d86c1bdc82c" />
 
+# Result: 
+Thus, the program was implemented and executed successfully, and the required output was obtained.
 # 19AI304-Fundamentals-of-C-Programming-2025-Odd
 # IAPR-1- Module 1 - FoC
 # Ex.No:4
