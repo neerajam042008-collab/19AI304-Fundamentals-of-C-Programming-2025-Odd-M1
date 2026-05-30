@@ -26,7 +26,7 @@ To build a C program that prints integer, float,character, and string literals o
 ### Step 4: 
    Stop
 # Program:
-'''
+```
 #include <stdio.h>
 int main()
 {
@@ -35,7 +35,7 @@ scanf("%f",&a);
 printf("%f",a);
 return 0;
 }
-'''
+```
 # Output:
 <img width="597" height="233" alt="image" src="https://github.com/user-attachments/assets/29e681e1-e5ad-4221-bf39-59b1a1f46beb" />
 
@@ -69,6 +69,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
+```
 #include <stdio.h>
 int main(){
     char ch;
@@ -80,6 +81,7 @@ int main(){
         printf("It is NOT AN ALPHABET");
     }
 }
+```
 # Output:
 <img width="628" height="435" alt="image" src="https://github.com/user-attachments/assets/14ebb638-3111-49c9-8de8-6b5b11b829c9" />
 
@@ -106,6 +108,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 5:    
    Stop
 # Program:
+```
 #include <stdio.h>
 int main()
 {
@@ -113,6 +116,7 @@ int main()
     printf("%c",a);
     return 0;
 }
+```
 # Output:
 <img width="441" height="233" alt="image" src="https://github.com/user-attachments/assets/aad549a2-c6fd-4fbf-8dd7-5d86c1bdc82c" />
 
@@ -154,6 +158,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+```
 #include <stdio.h>
 int main()
 {
@@ -163,6 +168,7 @@ int main()
     printf("Sum of %d and %d=%d",num1,num2, sum);
     return 0;
 }
+```
 # Output:
 <img width="706" height="322" alt="image" src="https://github.com/user-attachments/assets/d5fafbf2-422c-4222-8e6e-3cf2e556dbef" />
 
@@ -210,6 +216,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+```
 #include <stdio.h>
 int main(){
     char ch;
@@ -225,6 +232,7 @@ int main(){
     }
     
 }
+```
 # Output:
 <img width="497" height="273" alt="image" src="https://github.com/user-attachments/assets/c7e7d3c8-809c-48f8-83a7-ccfdcbfb1398" />
 
